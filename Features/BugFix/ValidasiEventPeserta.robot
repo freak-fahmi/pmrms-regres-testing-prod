@@ -15,7 +15,7 @@ PMRMS-B-2 Scenario 1: Login valid as Konsultan Farmanizhar
     Then Verify Home Page is open
 
 PMRMS-B-2 Scenario 2 : Tambah Concept Note
-    Buat Concept Note    estswkll
+    Buat Concept Note     1.1.1.estswkll1014 - Automation Testing nnmmw
     pcu.Fill Data Umum
     # rubah tanggal mulai dan akhir kegiatan di keyword ini
     Fill Data Pelaksanaan Peserta Farmanizhar
