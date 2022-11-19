@@ -390,12 +390,12 @@ Save Informasi Tambahan
 
 Click Download Laporan Proyek
     Sleep    2s
-    Wait Until Element Is Visible    ${btnDownloadLaporanProyek}    timeout=10s
+    Wait Until Element Is Visible    ${btnDownloadLaporanProyek}    timeout=30s
     Click Element    ${btnDownloadLaporanProyek}
 
 Submit Form Download Laporan
     Sleep    3s
-    Wait Until Element Is Visible    ${startWaktuPelaporan}    timeout=10s
+    Wait Until Element Is Visible    ${startWaktuPelaporan}    timeout=30s
     Input Text    ${startWaktuPelaporan}    2022-08-04
     Input Text    ${endWaktuPelaporan}    2022-08-05
     Click Element    ${dropdownPilihKomponen}
@@ -405,7 +405,7 @@ Submit Form Download Laporan
 
 Click Export AWP ke Excel
     Sleep    3s
-    Wait Until Element Is Visible    ${btnExportAWPkeExcel}    timeout=10s
+    Wait Until Element Is Visible    ${btnExportAWPkeExcel}    timeout=30s
     Click Element    ${btnExportAWPkeExcel}
     Wait Until Element Is Visible    ${btnSubmitAWPkeExcel}    timeout=30s
 

@@ -167,29 +167,29 @@ Resource            ../Keyword/dashboard.robot
 #    User Klik Button Simpan
 #    Finish Testcase
 #
-#962 Scenario : Mengubah informasi tambahan AWP
-#    Login as adm_usr
-#    awp.Click Menu AWP
-#    Verify Page AWP
-#    Click Button Export Awp ke Doc
-#    Pilih Export 2021
-#    Click Donwload Awp
-#    Sleep    2s
-#    Click Download Laporan Proyek
-#    Submit Form Download Laporan
-#    Sleep    2s
-#    Click Export AWP ke Excel
-#    Submit Export AWP ke Excel
+962 Scenario : Mengubah informasi tambahan AWP
+    Login as adm_usr
+    awp.Click Menu AWP
+    Verify Page AWP
+    Click Button Export Awp ke Doc
+    Pilih Export 2021
+    Click Donwload Awp
+    Sleep    2s
+    Click Download Laporan Proyek
+    Submit Form Download Laporan
+    Sleep    2s
+    Click Export AWP ke Excel
+    Submit Export AWP ke Excel
 
 ##    PASSED
 #
-1047 Scenario : Mengikutsertakan staff PCU dalam Event (Konsultan)
-    Login as Konsultan
-    Buat Concept Note    1.1.1.estswkll1014 - Automation Testing nnmmw
-    pcu.Fill Data Umum
-    pcu.Fill Data Pelaksanaan    PCU    Sulawesi Utara    Yuji Laka
-    pcu.Fill Data Event
-    Finish Testcase
+#1047 Scenario : Mengikutsertakan staff PCU dalam Event (Konsultan)
+#    Login as Konsultan
+#    Buat Concept Note    1.1.1.estswkll1014 - Automation Testing nnmmw
+#    pcu.Fill Data Umum
+#    pcu.Fill Data Pelaksanaan    PCU    Sulawesi Utara    Yuji Laka
+#    pcu.Fill Data Event
+#    Finish Testcase
 
 #1048 Scenario : Perbaikan Daftar Direktori Staff
 #    Login as adm_usr

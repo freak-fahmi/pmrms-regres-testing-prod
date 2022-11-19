@@ -69,17 +69,17 @@ ${pilihIRI}                     //label[text()[normalize-space()='IRI-1.1 Jumlah
 ${narasumberLainnya}            //input[@placeholder='Informasi tambahan asal lembaga narasumber (jika ada)']
 ${pesertaLainnya}               //input[@placeholder='Informasi tambahan peserta jika ada']
 ${exportAwpDoc}                 //label[text()='Export AWP ke Doc']
-${export2021}                   //label[text()='Export Tahun 2021']
+${export2021}                   //label[text()='Export Tahun 2023']
 ${DownloadAwp}                  //label[text()='Download AWP']
 ${editInfoTambahan}             //label[text()='Edit Informasi Tambahan']
 ${inputCapaian}                 //*[@role = 'textbox' and @aria-label = 'Rich Text Editor, main']
 ${inputKendala}                 //div[@id='layout-wrapper']/div[1]/div[1]/app-other-information-awp[1]/div[1]/div[1]/div[2]/div[1]/div[1]/aw-wizard[1]/div[1]/aw-wizard-step[4]/div[1]/div[4]/div[1]/ckeditor[1]/div[2]/div[2]/div[1]
-${btnDownloadLaporanProyek}     //*[@id="layout-wrapper"]/div/div/app-awp/div/div[1]/div[2]/div/div[1]/button
+${btnDownloadLaporanProyek}     //label[text()='Laporan Proyek']
 ${startWaktuPelaporan}          //input[@placeholder='Pilih tanggal mulai']
 ${endWaktuPelaporan}            //input[@placeholder='Pilih tanggal akhir']
 ${dropdownPilihKomponen}        (//div[@role='combobox'])[3]
 ${itemPilihKomponen1}           //ng-dropdown-panel/div/div[2]/div[1]
 ${btnDownloadLaporan}           //div[@class='modal-footer']/button[1]
-${btnExportAWPkeExcel}          //*[@id="layout-wrapper"]/div/div/app-awp/div/div[1]/div[2]/div/div[3]/button
+${btnExportAWPkeExcel}          //label[text()='Export AWP ke Excel']
 ${btnSubmitAWPkeExcel}          //*[@id="layout-wrapper"]/div/div/app-export-awp-excel/div/div[3]/div[3]/button
 ${checkboxAWPFirst}             //tbody/tr[1]/td[8]/input

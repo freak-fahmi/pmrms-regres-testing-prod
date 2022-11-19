@@ -124,7 +124,7 @@ Resource            ../Keyword/pcu.robot
     Page Should Contain Element    //label[text()='Detail Hasil Output Kegiatan ']
     Wait Until Element Is Visible    ${btnKembali}      timeout=30s
     Click Element    ${btnKembali}
-    Wait Until Element Is Visible    ${inputCari}
+    Wait Until Element Is Visible    ${inputCari}       timeout=30s
     Input Text    ${inputCari}    bimtek
     Click Element    ${btnCari}
     Sleep    3s
