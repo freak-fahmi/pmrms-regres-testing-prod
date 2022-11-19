@@ -32,9 +32,11 @@ PMRMS-B-2-Scenario 4: Click Laporan Kegiatan
     Click Laporan Kegiatan
 
 PMRMS-B-2-Scenario 5: User pilih label laporan event
-    Wait Until Element Is Visible    //label[text()='Laporan Event 27 Juli']     timeout=30s
-    Click Element    //label[text()='Laporan Event 27 Juli']
+    Wait Until Element Is Visible    //label[text()='Laporan Event 27 juli']     timeout=20s
+    Click Element    //label[text()='Laporan Event 27 juli']
     Sleep    3s
+
+
 
 PMRMS-B-2 Scenario 6: User pilih button download laporan event
     Download Laporan Event
