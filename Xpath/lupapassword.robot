@@ -1,0 +1,11 @@
+*** Variables ***
+${btnLupaPwd}                   //label[text()='Lupa Password ?']
+${verifyPageLupaPwd}            //label[text()='Setel Ulang Password']
+${inputEmail}                   //input[@type='email']
+${btnBackToLogin}               //button[text()=' Kembali Ke Login ']
+${btnKirim}                     //button[@class='btn']
+${verifyConfirmEmail}           (//div[@class='my-auto']//label)[2]
+${btnBackFromConfirm}           //button[text()=' Kembali Ke Login ']
+${verifyPageLogin}              //label[text()='Selamat Datang']
+${notifPenggunaTdkDiketahui}    //ngb-alert[text()='Pengguna tidak diketahui']
+${notifEmailTdkValid}           //ngb-alert[text()='Email tidak valid']
